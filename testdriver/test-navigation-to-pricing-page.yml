@@ -1,0 +1,16 @@
+version: 4.1.30
+steps:
+  - prompt: Locate the "Pricing" link in the navigation menu.
+    commands:
+      - command: scroll
+        direction: down
+      - command: scroll
+        direction: down
+  - prompt: Locate the "Pricing" link in the navigation menu.
+    commands:
+      - command: scroll
+        direction: down
+      - command: hover-text
+        text: Pricing
+        description: pricing link in the navigation menu
+        action: click
