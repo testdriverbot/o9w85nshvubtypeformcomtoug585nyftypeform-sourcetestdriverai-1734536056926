@@ -1,0 +1,16 @@
+version: 4.1.30
+steps:
+  - prompt: Locate the "Start" button on the page.
+    commands:
+      - command: hover-text
+        text: Start
+        description: start button on the webpage
+        action: click
+  - prompt: Click the "Start" button.
+    commands: []
+  - prompt: >-
+      Assert that the action redirects or changes the page content
+      appropriately.  # Use the content of the file from the environment
+    commands:
+      - command: assert
+        expect: the page displays "What kind of app would you like to test?"
