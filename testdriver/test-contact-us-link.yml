@@ -1,0 +1,16 @@
+version: 4.1.30
+steps:
+  - prompt: Locate the "Contact Us" link on the page.
+    commands:
+      - command: scroll
+        direction: down
+      - command: scroll
+        direction: down
+  - prompt: Locate the "Contact Us" link on the page.
+    commands:
+      - command: scroll
+        direction: down
+      - command: hover-text
+        text: Contact Us
+        description: link to contact page in the webpage footer
+        action: hover
