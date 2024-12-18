@@ -1,0 +1,17 @@
+version: 4.1.30
+steps:
+  - prompt: Open the webpage.
+    commands:
+      - command: press-keys
+        keys:
+          - control
+          - l
+      - command: type
+        text: https://example.com
+      - command: press-keys
+        keys:
+          - enter
+  - prompt: Assert the logo is visible at the top left corner.
+    commands:
+      - command: assert
+        expect: the logo is visible at the top left corner
