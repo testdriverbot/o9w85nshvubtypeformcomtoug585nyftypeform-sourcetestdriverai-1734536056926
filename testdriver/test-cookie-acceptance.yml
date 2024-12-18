@@ -1,0 +1,30 @@
+version: 4.1.30
+steps:
+  - prompt: Look for any cookie acceptance banner.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Look for any cookie acceptance banner.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Look for any cookie acceptance banner.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Look for any cookie acceptance banner.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Look for any cookie acceptance banner.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Look for any cookie acceptance banner.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Look for any cookie acceptance banner.
+    commands:
+      - command: scroll
+        direction: down
